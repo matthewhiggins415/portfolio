@@ -1,14 +1,25 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
   padding: 20px;
   height: 100px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+`
+
+export const NavbarContainer = styled.div`
+  min-width: 650px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: transparent;
-  margin: 0px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 680px) {
+    min-width: 90%;
+  }
 `
 
 export const H2 = styled.h2`
