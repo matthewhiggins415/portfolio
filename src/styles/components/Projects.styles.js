@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: orange;
+  background-color: transparent;
   min-height: 50vh;
   width: 100vw;
   display: flex;
@@ -23,10 +23,10 @@ export const Project = styled.div`
   align-items: center;
   justify-content: space-evenly;
   cursor: pointer;
-  border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
   height: 240px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 `
 
 export const Img = styled.img`
@@ -34,5 +34,4 @@ export const Img = styled.img`
   width: 200px;
   object-fit: contain;
   border-radius: 5px;
-  border: 1px solid black;
 `

@@ -10,7 +10,6 @@ const Projects = ({ selectedProject, setSelectedProject }) => {
 
   return (
     <Container>
-      <h1>Projects</h1>
       <ProjectsContainer>
         {projects.map((project) => (
           <Project key={project._id} onClick={() => handleSelect(project)}>
