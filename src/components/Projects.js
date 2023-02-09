@@ -1,8 +1,8 @@
 import React from 'react'
-import { Container, Img, ProjectsContainer, Project } from '../styles/components/Projects.styles'
+import { Container, Img, ProjectsContainer, Project, Span, H4} from '../styles/components/Projects.styles'
 import { projects } from '../projects'
 
-const Projects = ({ selectedProject, setSelectedProject }) => {
+const Projects = ({ setSelectedProject }) => {
 
   const handleSelect = (project) => {
     setSelectedProject(project)
@@ -13,8 +13,9 @@ const Projects = ({ selectedProject, setSelectedProject }) => {
       <ProjectsContainer>
         {projects.map((project) => (
           <Project key={project._id} onClick={() => handleSelect(project)}>
+            {project.favorite === true ? <Span>🔥</Span> : null}
             <Img src={project.img} alt="landing page of deployed project."/>
-            <h4>{project.name}</h4>
+            <H4>{project.name}</H4>
           </Project>
         ))}
       </ProjectsContainer>

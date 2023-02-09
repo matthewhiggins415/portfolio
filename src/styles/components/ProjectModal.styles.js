@@ -5,10 +5,16 @@ export const Container = styled.div`
   position: absolute;
   top: 100px;
   min-height: 100%;
-  width: 100vw;
+  margin: 0px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media only screen and (max-width: 580px) {
+    min-height: 200vh;
+    z-index: 4;
+  }
 `
 
 export const ModalContainer = styled.div`
@@ -20,6 +26,11 @@ export const ModalContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 15px;
+  z-index: 10;
+
+  @media only screen and (max-width: 580px) {
+    width: 90vw;
+  }
 `
 
 export const ModalHeader = styled.div`
@@ -27,6 +38,7 @@ export const ModalHeader = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
+  font-family: 'Nunito', sans-serif;
 `
 
 export const Close = styled.button`
@@ -61,8 +73,13 @@ export const Link = styled.a`
   transition: 150ms ease-in-out;
   color: black;
   text-decoration: none;
+  font-family: 'Mulish', sans-serif;
 
   :hover { 
     background-color: rgba(1, 1, 1, 0.1);
   }
+`
+export const P = styled.p`
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 `

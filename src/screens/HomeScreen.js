@@ -11,7 +11,7 @@ const HomeScreen = () => {
       {Object.keys(selectedProject).length > 0 ? <ProjectModal selectedProject={selectedProject} setSelectedProject={setSelectedProject}/> : null}
       <div>
         <Hero />
-        <Projects selectedProject={selectedProject} setSelectedProject={setSelectedProject}/>
+        <Projects setSelectedProject={setSelectedProject}/>
       </div>
     </>
   )

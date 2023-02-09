@@ -4,11 +4,15 @@ export const Container = styled.div`
   display: flex;
   padding: 20px;
   height: 100px;
-  max-width: 650px;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
-  margin: 0 auto;
+  margin: 0px;
+`
+
+export const H2 = styled.h2`
+  font-family: 'Orbitron', sans-serif;
 `
 
 export const LinkContainer = styled.div`
@@ -16,4 +20,5 @@ export const LinkContainer = styled.div`
   min-width: 150px;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Nunito', sans-serif;
 `

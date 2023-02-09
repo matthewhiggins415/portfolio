@@ -3,10 +3,17 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: #21262d;
   min-height: 50vh;
-  width: 100vw;
+  margin: 0px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+`
+
+export const H3 = styled.h3`
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1.2px;
 `
 
 export const HeroInfo = styled.div`
@@ -17,20 +24,27 @@ export const HeroInfo = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 580px) {
     flex-direction: column;
+    width: auto;
   }
 `
 
 export const HeroInfoRight = styled.div`
-  width: 300px;
-  height: 200px;
+  width: auto;
+  height: 260px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   color: #F3F4F6;
   background-color: transparent;
+  font-family: 'Nunito', sans-serif;
+
+  @media only screen and (max-width: 580px) {
+    align-items: center;
+    padding-top: 15px;
+  }
 `
 
 export const Img = styled.img`
@@ -39,4 +53,25 @@ export const Img = styled.img`
   object-fit: cover;
   border-bottom: 2px dotted lightblue;
   background-color: transparent;
+  margin-right: 10px;
+`
+
+export const ResumeBtn = styled.button`
+  padding: 8px 25px; 
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  background-color: #36395a;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 150ms ease-in-out;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 1.1px;
+  margin-top: 20px;
+
+  :hover {
+    background-color: #F3F4F6;
+    color: #21262d;
+  }
 `

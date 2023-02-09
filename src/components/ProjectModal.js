@@ -1,7 +1,5 @@
 import React from 'react'
-import { Container, ModalContainer, ModalHeader, Close, LinkContainer, Link } from '../styles/components/ProjectModal.styles'
-import BounceLoader from "react-spinners/BounceLoader";
-
+import { Container, ModalContainer, ModalHeader, Close, LinkContainer, Link, P } from '../styles/components/ProjectModal.styles'
 
 const ProjectModal = ({ selectedProject, setSelectedProject }) => {
 
@@ -25,7 +23,7 @@ const ProjectModal = ({ selectedProject, setSelectedProject }) => {
           <Link href={selectedProject.frontendRepo} target="_blank">Frontend Repo</Link>
           <Link href={selectedProject.backendRepo} target="_blank">Backend Repo</Link>
         </LinkContainer>
-        <p>{selectedProject.description}</p>
+        <P>{selectedProject.description}</P>
       </ModalContainer>
     </Container>
   )

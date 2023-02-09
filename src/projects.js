@@ -1,16 +1,18 @@
 export const projects = [
   {
     _id: "1", 
+    favorite: true,
     name: "MERNguide", 
     img: "https://i.imgur.com/PQvD5tN.png", 
     video: "", 
     deployedUrl: "mernguide.com",
     frontendRepo: "https://github.com/matthewhiggins415/mernfrontend",
     backendRepo: "https://github.com/matthewhiggins415/mernbackend",
-    description: "This is a subscription platform I built that helps devs learn MERN stack by building fully deployed project from scratch - no abstractions. The one course up there follows the process of building and deploying the e-commerce site gallacticcat.com - when I was learning I was isolated and frustrated. In the world of web development there are so many different frameworks and things to learn, I felt daunted and bummed to be alone while learning. To alleviate that every course on MERNguide has a Discord channel dedicated to the students so they can share ideas, ask questions, etc. Every course lesson comes with a video guide and repo commits as well."
+    description: "My favorite! This is a subscription platform I built that helps devs learn MERN stack by building fully deployed project from scratch - no abstractions. The one course up there follows the process of building and deploying the e-commerce site gallacticcat.com - when I was learning I was isolated and frustrated. In the world of web development there are so many different frameworks and things to learn, I felt daunted and bummed to be alone while learning. To alleviate that every course on MERNguide has a Discord channel dedicated to the students so they can share ideas, ask questions, etc. Every course lesson comes with a video guide and repo commits as well."
   }, 
   {
     _id: "2",
+    favorite: false, 
     name: "Gallactic Cat", 
     img: "https://i.imgur.com/qW8Jz7a.png", 
     video: "", 
@@ -21,6 +23,7 @@ export const projects = [
   },
   {
     _id: "3",
+    favorite: false,
     name: "Kakeibo Budgeting", 
     img: "https://user-images.githubusercontent.com/67120920/157352124-9848975e-a775-426e-bc9f-b858895c1e6a.png", 
     video: "https://www.loom.com/embed/fb67219748614f2198bf0f78eea1b53b", 
