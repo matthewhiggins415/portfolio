@@ -4,7 +4,7 @@ export const projects = [
     favorite: true,
     name: "MERNguide", 
     img: "https://i.imgur.com/PQvD5tN.png", 
-    video: "", 
+    video: "https://www.loom.com/embed/7b67a6044aca4856b57ece3f694b6f27", 
     deployedUrl: "mernguide.com",
     frontendRepo: "https://github.com/matthewhiggins415/mernfrontend",
     backendRepo: "https://github.com/matthewhiggins415/mernbackend",
@@ -15,7 +15,7 @@ export const projects = [
     favorite: false, 
     name: "Gallactic Cat", 
     img: "https://i.imgur.com/qW8Jz7a.png", 
-    video: "", 
+    video: "https://www.loom.com/embed/7535f17b4630480cbb01a72aab1ef0a1", 
     deployedUrl: "gallacticcat.com",
     frontendRepo: "https://github.com/matthewhiggins415/mernguideecommfrontend",
     backendRepo: "https://github.com/matthewhiggins415/mernguideecommbackend",
@@ -33,6 +33,3 @@ export const projects = [
     description: "My very first fully deployed project. A simple budgeting tool that aligns to the Japanese budgeting philosophy of kakeibo. In kakeibo expenses are categorized as NEED, WANT, CULTURAL, UNEXPECTED to reinforce mindful spending. Within this project users create expenses and categorize them. Once categorized a user can see all their spending broken down visually in a nice circle graph."
   }
 ]
-
-
-// <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/fb67219748614f2198bf0f78eea1b53b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
