@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, NavbarContainer, LinkContainer, H2} from '../styles/components/Navbar.styles'
+import { Container, NavbarContainer, LinkContainer, H2, NavLink } from '../styles/components/Navbar.styles'
 
 const Navbar = () => {
   return (
@@ -7,8 +7,8 @@ const Navbar = () => {
       <NavbarContainer>
         <H2>MH</H2>
         <LinkContainer>
-          <p>Home</p>
-          <p>About Me</p>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About Me</NavLink>
         </LinkContainer>
       </NavbarContainer>
     </Container>
