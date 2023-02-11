@@ -5,7 +5,7 @@ export const projects = [
     name: "MERNguide", 
     img: "https://i.imgur.com/PQvD5tN.png", 
     video: "https://www.loom.com/embed/7b67a6044aca4856b57ece3f694b6f27", 
-    deployedUrl: "mernguide.com",
+    deployedUrl: "https://www.mernguide.com",
     frontendRepo: "https://github.com/matthewhiggins415/mernfrontend",
     backendRepo: "https://github.com/matthewhiggins415/mernbackend",
     description: "My favorite! This is a subscription platform I built that helps devs learn MERN stack by building fully deployed project from scratch - no abstractions. The one course up there follows the process of building and deploying the e-commerce site gallacticcat.com - when I was learning I was isolated and frustrated. In the world of web development there are so many different frameworks and things to learn, I felt daunted and bummed to be alone while learning. To alleviate that every course on MERNguide has a Discord channel dedicated to the students so they can share ideas, ask questions, etc. Every course lesson comes with a video guide and repo commits as well."
@@ -16,7 +16,7 @@ export const projects = [
     name: "Gallactic Cat", 
     img: "https://i.imgur.com/qW8Jz7a.png", 
     video: "https://www.loom.com/embed/7535f17b4630480cbb01a72aab1ef0a1", 
-    deployedUrl: "gallacticcat.com",
+    deployedUrl: "https://www.gallacticcat.com",
     frontendRepo: "https://github.com/matthewhiggins415/mernguideecommfrontend",
     backendRepo: "https://github.com/matthewhiggins415/mernguideecommbackend",
     description: "This is a fully deployed e-commerce site that incorporates a streamline experience for users - meaning users don't need to login to manage a cart and checkout. Integrated with Stripe hosted checkout and full functional. Outlined the process of building this site within my MERNguide.com site to help provide a path to other aspiring fullstack devs."
