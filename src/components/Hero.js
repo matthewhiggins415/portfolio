@@ -1,6 +1,8 @@
 import React from 'react'
-import { Container, HeroInfo, HeroInfoRight, Img, ResumeLink, H3 } from '../styles/components/Hero.styles'
+import { Container, HeroInfo, HeroInfoRight, Img, ResumeLink, H3, SocialContainer, SocialLink } from '../styles/components/Hero.styles'
 import profImg from '../assets/prof.png'
+import { FiGithub } from 'react-icons/fi';
+import { FaLinkedin } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -15,6 +17,18 @@ const Hero = () => {
           <ResumeLink href="resume.pdf" download="Matt's Resume">resume</ResumeLink>
         </HeroInfoRight>
       </HeroInfo>
+      <SocialContainer>
+        <SocialLink 
+          href="https://github.com/matthewhiggins415" 
+          target="_blank">
+          <FiGithub />
+        </SocialLink>
+        <SocialLink 
+          href="https://www.linkedin.com/in/mhiggie/" 
+          target="_blank">
+          <FaLinkedin />
+        </SocialLink>
+      </SocialContainer>
     </Container>
   )
 }

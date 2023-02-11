@@ -8,6 +8,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 `
 
 export const H3 = styled.h3`
@@ -75,4 +76,25 @@ export const ResumeLink = styled.a`
     background-color: #F3F4F6;
     color: #21262d;
   }
+`
+
+export const SocialContainer = styled.div`
+  display: flex;
+  width: auto;
+  min-width: 150px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px auto;
+`
+
+export const SocialLink = styled.a`
+  color: black;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
 `
