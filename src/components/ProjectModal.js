@@ -22,6 +22,7 @@ const ProjectModal = ({ selectedProject, setSelectedProject }) => {
         </div>
         <LinkContainer>
           <Link href={selectedProject.frontendRepo} target="_blank">Frontend Repo</Link>
+          <Link href={selectedProject.deployedUrl} target="_blank">Deployed Site</Link>
           <Link href={selectedProject.backendRepo} target="_blank">Backend Repo</Link>
         </LinkContainer>
         <P>{selectedProject.description}</P>
