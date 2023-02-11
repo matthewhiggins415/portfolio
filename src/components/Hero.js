@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, HeroInfo, HeroInfoRight, Img, ResumeBtn, H3} from '../styles/components/Hero.styles'
+import { Container, HeroInfo, HeroInfoRight, Img, ResumeLink, H3} from '../styles/components/Hero.styles'
 import profImg from '../assets/prof.png'
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 style={{"margin-bottom": "10px", "margin-top": "10px"}}>Fullstack Web Developer</h1>
           <p>I build fullstack web apps using MERN</p>
           <p>mhiggins.louis@gmail.com</p>
-          <ResumeBtn>resume</ResumeBtn>
+          <ResumeLink href="resume.pdf" download="Matt's Resume">resume</ResumeLink>
         </HeroInfoRight>
       </HeroInfo>
     </Container>

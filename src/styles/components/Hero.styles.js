@@ -56,7 +56,7 @@ export const Img = styled.img`
   margin-right: 10px;
 `
 
-export const ResumeBtn = styled.button`
+export const ResumeLink = styled.a`
   padding: 8px 25px; 
   background-color: transparent;
   border: none;
@@ -69,6 +69,7 @@ export const ResumeBtn = styled.button`
   font-family: 'Nunito', sans-serif;
   letter-spacing: 1.1px;
   margin-top: 20px;
+  text-decoration: none;
 
   :hover {
     background-color: #F3F4F6;
