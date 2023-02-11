@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, ModalContainer, ModalHeader, Close, LinkContainer, Link, P } from '../styles/components/ProjectModal.styles'
 
+
 const ProjectModal = ({ selectedProject, setSelectedProject }) => {
 
   const handleRemoveSelected = () => {
@@ -15,9 +16,9 @@ const ProjectModal = ({ selectedProject, setSelectedProject }) => {
           <Close onClick={handleRemoveSelected}>&#10060;</Close>
         </ModalHeader>
         <div style={{position: "relative", "paddingBottom": "56.25%", height: "200px"}}>
-          { selectedProject.video ? <iframe title="kakeibo demo"
-            src={selectedProject.video} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: "absolute", top: "0px", left: "0px", width: "100%", height: "100%", borderRadius: "10px"}}>
-          </iframe> : <p>no video</p>}
+          <iframe title="kakeibo demo"
+            src={selectedProject.video} frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen style={{position: "absolute", top: "0px", left: "0px", width: "100%", height: "100%", borderRadius: "10px"}}>
+          </iframe>
         </div>
         <LinkContainer>
           <Link href={selectedProject.frontendRepo} target="_blank">Frontend Repo</Link>
