@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 export const Container = styled.div`
   padding: 20px;
   height: 100px;
-  width: 100%;
+  width: 90%;
   display: flex;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
   background-color: transparent;

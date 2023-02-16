@@ -17,6 +17,16 @@ export const H3 = styled.h3`
   letter-spacing: 1.2px;
 `
 
+export const H1 = styled.h1`
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+
+  @media only screen and (max-width: 580px) {
+    text-align: center;
+  }
+`
+
 export const HeroInfo = styled.div`
   display: flex;
   padding: 20px;
@@ -27,6 +37,7 @@ export const HeroInfo = styled.div`
 
   @media only screen and (max-width: 580px) {
     flex-direction: column;
+    min-width: auto;
     width: auto;
   }
 `

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import ProjectModal from '../components/ProjectModal'
+import { HomeScreenContainer } from '../styles/screens/HomeScreen.styles'
 
 const HomeScreen = () => {
   const [selectedProject, setSelectedProject] = useState({})
@@ -9,10 +10,10 @@ const HomeScreen = () => {
   return (
     <>
       {Object.keys(selectedProject).length > 0 ? <ProjectModal selectedProject={selectedProject} setSelectedProject={setSelectedProject}/> : null}
-      <div>
+      <HomeScreenContainer>
         <Hero />
         <Projects setSelectedProject={setSelectedProject}/>
-      </div>
+      </HomeScreenContainer>
     </>
   )
 }
