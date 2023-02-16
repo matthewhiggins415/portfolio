@@ -17,6 +17,7 @@ export const NavbarContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  background-color: transparent;
 
   @media only screen and (max-width: 680px) {
     min-width: 90%;
@@ -33,6 +34,7 @@ export const LinkContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   font-family: 'Nunito', sans-serif;
+  background-color: transparent;
 `
 
 export const NavLink = styled(Link)`

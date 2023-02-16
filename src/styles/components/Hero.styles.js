@@ -66,6 +66,11 @@ export const Img = styled.img`
   border-bottom: 2px dotted lightblue;
   background-color: transparent;
   margin-right: 10px;
+
+  @media only screen and (max-width: 580px) {
+    min-width: 80%;
+    margin: 0 auto;
+  }
 `
 
 export const ResumeLink = styled.a`
