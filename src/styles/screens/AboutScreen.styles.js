@@ -26,4 +26,8 @@ export const P = styled.p`
   font-size: 20px;
   letter-spacing: 1.2px;
   margin: 15px;
+
+  @media only screen and (max-width: 680px) {
+    text-align: center;
+  }
 `
