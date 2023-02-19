@@ -4,16 +4,17 @@ export const Container = styled.div`
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 100px;
-  min-height: 100%;
+  min-height: 110%;
+  height: auto;
   margin: 0px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 4;
 
   @media only screen and (max-width: 580px) {
     min-height: 200vh;
-    z-index: 4;
   }
 `
 
