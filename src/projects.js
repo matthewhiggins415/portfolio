@@ -2,13 +2,13 @@ export const projects = [
   {
     _id: "1", 
     favorite: true,
-    name: "MERNguide", 
+    name: "code_with_friends", 
     img: "https://i.imgur.com/PRJG9F7.png", 
     video: "https://www.loom.com/embed/600afbec6550467eb4ebe2327f58ef12", 
-    deployedUrl: "https://www.mernguide.com",
+    deployedUrl: "https://www.codewithfriends.co",
     frontendRepo: "https://github.com/matthewhiggins415/mernfrontend",
     backendRepo: "https://github.com/matthewhiggins415/mernbackend",
-    description: "My favorite! This is a subscription platform I built that helps devs learn MERN stack by building fully deployed project from scratch - no abstractions. The one course up there follows the process of building and deploying the e-commerce site gallacticcat.com - when I was learning I was isolated and frustrated. In the world of web development there are so many different frameworks and things to learn, I felt daunted and bummed to be alone while learning. To alleviate that every course on MERNguide has a Discord channel dedicated to the students so they can share ideas, ask questions, etc. Every course lesson comes with a video guide and repo commits as well."
+    description: "My favorite! This is a subscription platform I built that helps devs learn MERN stack (previously called it mernguide.com 🤷🏼‍♂️) by building fully deployed project from scratch - no abstractions. The one course up there follows the process of building and deploying the e-commerce site gallacticcat.com - when I was learning I was isolated and frustrated. In the world of web development there are so many different frameworks and things to learn, I felt daunted and bummed to be alone while learning. To alleviate that every course on MERNguide has a Discord channel dedicated to the students so they can share ideas, ask questions, etc. Every course lesson comes with a video guide and repo commits as well."
   }, 
   {
     _id: "2",

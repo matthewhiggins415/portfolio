@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: #21262d;
   min-height: 50vh;
-  margin: 0px;
+  padding-top: 20px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -60,12 +60,15 @@ export const HeroInfoRight = styled.div`
 `
 
 export const Img = styled.img`
-  min-width: 350px;
+  min-width: 300px;
   height: 300px;
   object-fit: cover;
   border-bottom: 2px dotted lightblue;
   background-color: transparent;
-  margin-right: 10px;
+  margin-right: 30px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 
   @media only screen and (max-width: 580px) {
     min-width: 80%;
