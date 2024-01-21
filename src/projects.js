@@ -31,5 +31,16 @@ export const projects = [
     frontendRepo: "https://github.com/matthewhiggins415/kakeibofrontend",
     backendRepo: "https://github.com/matthewhiggins415/kakeibobackend",
     description: "My very first fully deployed project. A simple budgeting tool that aligns to the Japanese budgeting philosophy of kakeibo. In kakeibo expenses are categorized as NEED, WANT, CULTURAL, UNEXPECTED to reinforce mindful spending. Within this project users create expenses and categorize them. Once categorized a user can see all their spending broken down visually in a nice circle graph."
+  }, 
+  {
+    _id: "4",
+    favorite: false,
+    name: "Fire Safe Chimney Care",
+    img: "https://i.imgur.com/F9bodjg.png",
+    video: "",
+    deployedUrl: "https://firesafechimneycare.com",
+    frontendRepo: "https://github.com/matthewhiggins415/firesafechimney",
+    backendRepo: "",
+    description: "Friend of mine bought a chimney service in San Diego and needed a website, so I built and deployed this for him. The fun part about this site is it has a form for users to fill out when they request a quote. My friend uses a CRM called Ontraport to organize contact information so I built an integration. When users submit, the request quote form a new lead is generated in his Ontraport CRM."
   }
 ]

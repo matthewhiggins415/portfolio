@@ -63,4 +63,5 @@ export const H4 = styled.h4`
   font-size: 20px;
   position: absolute;
   bottom: 5px;
+  text-align: center;
 `
