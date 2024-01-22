@@ -9,6 +9,11 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+
+  h2 {
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+  }
 `
 
 export const ProjectsContainer = styled.div`

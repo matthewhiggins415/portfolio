@@ -43,7 +43,7 @@ export const HeroInfo = styled.div`
 `
 
 export const HeroInfoRight = styled.div`
-  width: auto;
+  width: 60%;
   height: 260px;
   display: flex;
   flex-direction: column;
@@ -56,15 +56,18 @@ export const HeroInfoRight = styled.div`
   @media only screen and (max-width: 580px) {
     align-items: center;
     padding-top: 15px;
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 15px;
   }
 `
 
 export const Img = styled.img`
   min-width: 300px;
   height: 300px;
-  object-fit: cover;
-  border-bottom: 2px dotted lightblue;
-  background-color: transparent;
+  object-fit: contain;
   margin-right: 30px;
   border-radius: 20px;
   border-bottom-left-radius: 0px;
@@ -105,6 +108,10 @@ export const SocialContainer = styled.div`
   justify-content: space-between;
   padding: 10px;
   margin: 20px auto;
+
+  @media only screen and (max-width: 580px) {
+    margin-top: 80px;
+  }
 `
 
 export const SocialLink = styled.a`
