@@ -26,7 +26,7 @@ export const projects = [
     favorite: false,
     name: "Kakeibo Budgeting", 
     img: "https://user-images.githubusercontent.com/67120920/157352124-9848975e-a775-426e-bc9f-b858895c1e6a.png", 
-    video: "https://www.loom.com/embed/fb67219748614f2198bf0f78eea1b53b", 
+    video: "https://www.loom.com/embed/72ede6fac01b4d1cac608a5b8b085b90?sid=36414c43-30e7-4df2-8bea-d06ef3a9489d", 
     deployedUrl: "https://matthewhiggins415.github.io/kakeibofrontend/",
     frontendRepo: "https://github.com/matthewhiggins415/kakeibofrontend",
     backendRepo: "https://github.com/matthewhiggins415/kakeibobackend",
@@ -34,13 +34,13 @@ export const projects = [
   }, 
   {
     _id: "4",
-    favorite: false,
+    favorite: true,
     name: "Fire Safe Chimney Care",
     img: "https://i.imgur.com/F9bodjg.png",
-    video: "",
+    video: "https://www.loom.com/embed/72ede6fac01b4d1cac608a5b8b085b90?sid=f944aac6-38fb-425a-8230-f63ed638263b",
     deployedUrl: "https://firesafechimneycare.com",
     frontendRepo: "https://github.com/matthewhiggins415/firesafechimney",
-    backendRepo: "",
+    backendRepo: "https://github.com/matthewhiggins415/firesafechimneybackend",
     description: "Friend of mine bought a chimney service in San Diego and needed a website, so I built and deployed this for him. The fun part about this site is it has a form for users to fill out when they request a quote. My friend uses a CRM called Ontraport to organize contact information so I built an integration. When users submit, the request quote form a new lead is generated in his Ontraport CRM."
   }
 ]
