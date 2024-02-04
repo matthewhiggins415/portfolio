@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
-  top: 100px;
-  min-height: 110%;
-  height: auto;
-  margin: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -14,8 +15,9 @@ export const Container = styled.div`
   z-index: 4;
 
   @media only screen and (max-width: 580px) {
-    min-height: 200vh;
+    min-height: 270vh;
   }
+
 `
 
 export const ModalContainer = styled.div`
