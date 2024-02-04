@@ -14,8 +14,14 @@ export const Container = styled.div`
   justify-content: center;
   z-index: 4;
 
-  @media only screen and (max-width: 580px) {
-    min-height: 270vh;
+  @media only screen and (max-width: 400px) {
+    top: 105vh;
+    min-height: 150vh;
+  }
+
+  @media only screen and (min-width: 400px) {
+    top: 55vh;
+    min-height: 80vh;
   }
 
 `
