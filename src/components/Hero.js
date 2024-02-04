@@ -14,21 +14,21 @@ const Hero = () => {
           <H1>Fullstack Web Developer</H1>
           <p>Certified full stack web developer who enjoys finding creative solutions to technical problems!</p>
           <p>mhiggins.louis@gmail.com</p>
-          <ResumeLink href="resume.pdf" download="Matt's Resume">resume</ResumeLink>
+          <SocialContainer>
+            <ResumeLink href="resume.pdf" download="Matt's Resume">resume</ResumeLink>
+            <SocialLink 
+              href="https://github.com/matthewhiggins415" 
+              target="_blank">
+              <FiGithub />
+            </SocialLink>
+            <SocialLink 
+              href="https://www.linkedin.com/in/mhiggie/" 
+              target="_blank">
+              <FaLinkedin />
+            </SocialLink>
+          </SocialContainer>
         </HeroInfoRight>
       </HeroInfo>
-      <SocialContainer>
-        <SocialLink 
-          href="https://github.com/matthewhiggins415" 
-          target="_blank">
-          <FiGithub />
-        </SocialLink>
-        <SocialLink 
-          href="https://www.linkedin.com/in/mhiggie/" 
-          target="_blank">
-          <FaLinkedin />
-        </SocialLink>
-      </SocialContainer>
     </Container>
   )
 }

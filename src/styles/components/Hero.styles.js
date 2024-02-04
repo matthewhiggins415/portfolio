@@ -44,13 +44,12 @@ export const HeroInfo = styled.div`
 
 export const HeroInfoRight = styled.div`
   width: 60%;
-  height: 260px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   color: #F3F4F6;
-  background-color: transparent;
   font-family: 'Nunito', sans-serif;
 
   @media only screen and (max-width: 580px) {
@@ -91,7 +90,6 @@ export const ResumeLink = styled.a`
   transition: 150ms ease-in-out;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 1.1px;
-  margin-top: 20px;
   text-decoration: none;
 
   :hover {
@@ -102,29 +100,20 @@ export const ResumeLink = styled.a`
 
 export const SocialContainer = styled.div`
   display: flex;
-  width: auto;
-  min-width: 150px;
+  width: 50%;
+  min-width: 250px;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-  margin: 20px auto;
-
-  @media only screen and (max-width: 580px) {
-    margin-top: 80px;
-  }
+  margin-top: 20px;
+  margin-bottom: 20px;
 `
 
 export const SocialLink = styled.a`
   color: black;
-  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   font-size: 25px;
   color: white;
-
-  @media only screen and (max-width: 580px) {
-    margin-top: 80px;
-  }
 `
