@@ -26,7 +26,7 @@ export const projects = [
     favorite: false,
     name: "Kakeibo Budgeting", 
     img: "https://user-images.githubusercontent.com/67120920/157352124-9848975e-a775-426e-bc9f-b858895c1e6a.png", 
-    video: "https://www.loom.com/embed/72ede6fac01b4d1cac608a5b8b085b90?sid=36414c43-30e7-4df2-8bea-d06ef3a9489d", 
+    video: "https://www.loom.com/embed/fb67219748614f2198bf0f78eea1b53b?sid=a34b167a-c745-4c19-a8ce-b98838d110ea", 
     deployedUrl: "https://matthewhiggins415.github.io/kakeibofrontend/",
     frontendRepo: "https://github.com/matthewhiggins415/kakeibofrontend",
     backendRepo: "https://github.com/matthewhiggins415/kakeibobackend",
