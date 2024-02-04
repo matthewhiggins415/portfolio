@@ -123,4 +123,8 @@ export const SocialLink = styled.a`
   cursor: pointer;
   font-size: 25px;
   color: white;
+
+  @media only screen and (max-width: 580px) {
+    margin-top: 80px;
+  }
 `

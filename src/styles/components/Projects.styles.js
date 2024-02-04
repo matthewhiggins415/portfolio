@@ -14,6 +14,12 @@ export const Container = styled.div`
     margin-top: 50px;
     font-family: 'Nunito', sans-serif;
   }
+
+  @media only screen and (max-width: 580px) {
+    h2 {
+      text-align: center;
+    }
+  }
 `
 
 export const ProjectsContainer = styled.div`
@@ -44,6 +50,10 @@ export const Project = styled.div`
 
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  @media only screen and (max-width: 580px) {
+    margin-top: 30px;
   }
 `
 
