@@ -2,8 +2,8 @@ export const projects = [
   {
     _id: "1", 
     favorite: true,
-    name: "code_with_friends", 
-    img: "https://i.imgur.com/PRJG9F7.png", 
+    name: "Code With Friends", 
+    img: "https://i.imgur.com/fiOeZcS.png", 
     video: "https://www.loom.com/embed/600afbec6550467eb4ebe2327f58ef12", 
     deployedUrl: "https://www.codewithfriends.co",
     frontendRepo: "https://github.com/matthewhiggins415/mernfrontend",
