@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <Container>
       <NavbarContainer>
-        <H2>MH</H2>
+        <H2>Matt Higgins</H2>
         <LinkContainer>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About Me</NavLink>

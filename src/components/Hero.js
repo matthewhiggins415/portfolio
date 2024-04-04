@@ -10,7 +10,6 @@ const Hero = () => {
       <HeroInfo>
         <Img src={profImg}/>
         <HeroInfoRight>
-          <H3>Matt Higgins</H3>
           <H1>Fullstack Web Developer</H1>
           <p>Certified full stack web developer who enjoys finding creative solutions to technical problems!</p>
           <p>mhiggins.louis@gmail.com</p>
