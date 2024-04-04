@@ -34,7 +34,7 @@ export const projects = [
   }, 
   {
     _id: "4",
-    favorite: true,
+    favorite: false,
     name: "Fire Safe Chimney Care",
     img: "https://i.imgur.com/F9bodjg.png",
     video: "https://www.loom.com/embed/72ede6fac01b4d1cac608a5b8b085b90?sid=f944aac6-38fb-425a-8230-f63ed638263b",
@@ -42,5 +42,16 @@ export const projects = [
     frontendRepo: "https://github.com/matthewhiggins415/firesafechimney",
     backendRepo: "https://github.com/matthewhiggins415/firesafechimneybackend",
     description: "Friend of mine bought a chimney service in San Diego and needed a website, so I built and deployed this for him. The fun part about this site is it has a form for users to fill out when they request a quote. My friend uses a CRM called Ontraport to organize contact information so I built an integration. When users submit, the request quote form a new lead is generated in his Ontraport CRM."
+  },
+  {
+    _id: "5",
+    favorite: true,
+    name: "True North Heating & Cooling",
+    img: "https://i.imgur.com/g5TGI2q.png",
+    video: "https://www.loom.com/embed/8c6a55c04752429db06a2b644c891c6b?sid=70772706-fc03-45d0-8e40-8350fc4b1b404",
+    deployedUrl: "https://truenorthheat.com",
+    frontendRepo: "https://github.com/matthewhiggins415/truenorthfrontend",
+    backendRepo: "https://github.com/matthewhiggins415/truenorthbackend",
+    description: "My brother just launched his HVAC company in Fairfield, Connecticut. He needed a website and a way to manage clients and everything related to his business. My favorite part of this site is the image uploading functionality with Firebase integration."
   }
 ]
