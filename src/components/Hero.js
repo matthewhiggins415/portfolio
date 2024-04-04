@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, HeroInfo, HeroInfoRight, Img, ResumeLink, H3, SocialContainer, SocialLink, H1 } from '../styles/components/Hero.styles'
+import { Container, HeroInfo, HeroInfoRight, Img, ResumeLink, SocialContainer, SocialLink, H1 } from '../styles/components/Hero.styles'
 import profImg from '../assets/prof.png'
 import { FiGithub } from 'react-icons/fi';
 import { FaLinkedin } from 'react-icons/fa'
