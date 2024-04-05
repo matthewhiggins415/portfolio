@@ -2,28 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: rgba(0, 0, 0, 0.4);
-  position: absolute;
+  position: fixed;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 4;
-
-  @media only screen and (max-width: 400px) {
-    top: 105vh;
-    min-height: 150vh;
-  }
-
-  @media only screen and (min-width: 400px) {
-    top: 55vh;
-    min-height: 80vh;
-  }
-
 `
 
 export const ModalContainer = styled.div`
@@ -37,8 +26,10 @@ export const ModalContainer = styled.div`
   padding: 15px;
   z-index: 10;
 
-  @media only screen and (max-width: 580px) {
+  @media only screen and (max-width: 400px) {
+    height: 400px;
     width: 90vw;
+    overflow-y: scroll;
   }
 `
 
