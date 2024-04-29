@@ -10,8 +10,8 @@ const Hero = () => {
       <HeroInfo>
         <Img src={profImg}/>
         <HeroInfoRight>
-          <H1>Fullstack Web Developer</H1>
-          <p>Certified full stack web developer who enjoys finding creative solutions to technical problems!</p>
+          <H1>Fullstack Developer</H1>
+          <p>I enjoy finding creative solutions to problems!</p>
           <p>mhiggins.louis@gmail.com</p>
           <SocialContainer>
             <ResumeLink href="2024resume.pdf" download="Matt's Resume">resume</ResumeLink>

@@ -25,9 +25,9 @@ export const Container = styled.div`
 export const ProjectsContainer = styled.div`
   display: flex;
   width: 90%;
-  max-width: 800px;
+  max-width: 1200px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
 `
@@ -38,13 +38,13 @@ export const Project = styled.div`
   font-family: 'Nunito', sans-serif;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   cursor: pointer;
   border-radius: 10px;
   padding: 10px;
-  height: 240px;
-  width: 200px;
-  margin: 5px;
+  height: auto;
+  width: 320px;
+  margin: 20px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   transition: 150ms ease-in-out;
 
@@ -58,30 +58,16 @@ export const Project = styled.div`
 `
 
 export const Img = styled.img`
-  position: absolute;
-  top: 0px;
-  height: 200px;
-  width: 200px;
-  object-fit: contain;
-  padding-left: 10px;
-  padding-right: 10px;
-`
-
-export const Span = styled.span`
-  position: relative;
-  top: -20px;
-  left: 85px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  padding: 5px 15px;
-  border-radius: 10px;
-  background-color: white;
-  height: auto;
+  height: 250px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  object-fit: fill;
 `
 
 export const H4 = styled.h4`
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
-  position: absolute;
-  bottom: 5px;
   text-align: center;
+  margin-bottom: 10px;
 `

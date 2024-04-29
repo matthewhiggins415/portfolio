@@ -14,9 +14,9 @@ const Projects = ({ setSelectedProject }) => {
       <ProjectsContainer>
         {projects.map((project) => (
           <Project key={project._id} onClick={() => handleSelect(project)}>
-            {project.favorite === true ? <Span>🔥</Span> : null}
             <Img src={project.img} alt="landing page of deployed project."/>
             <H4>{project.name}</H4>
+            <p>{project.shortDescription}</p>
           </Project>
         ))}
       </ProjectsContainer>
