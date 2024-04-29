@@ -25,7 +25,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const H2 = styled.h2`
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Poppins', sans-serif;
 `
 
 export const LinkContainer = styled.div`

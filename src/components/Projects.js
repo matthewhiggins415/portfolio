@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Img, ProjectsContainer, Project, Span, H4} from '../styles/components/Projects.styles'
+import { Container, Img, ProjectsContainer, Project, H4} from '../styles/components/Projects.styles'
 import { projects } from '../projects'
 
 const Projects = ({ setSelectedProject }) => {
